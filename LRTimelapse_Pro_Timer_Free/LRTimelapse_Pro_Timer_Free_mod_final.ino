@@ -211,8 +211,8 @@ void processKey() {
           interval = interval - 1;
         }
         
-        if ( interval < 0 ) { 
-          interval = 0;
+        if ( interval < 1 ) { 
+          interval = 1;
         }
       }
 
